@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact ClubRadio.UK</title>
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #00ffe0;
+      font-family: 'Orbitron', sans-serif;
+      padding: 30px;
+      background-image: url('https://images.alphacoders.com/107/1072297.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    h1 {
+      text-align: center;
+      text-shadow: 0 0 10px #00ffe0;
+    }
+    form {
+      background-color: rgba(0,0,0,0.85);
+      padding: 30px;
+      max-width: 600px;
+      margin: 40px auto;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #00ffe0;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+      background-color: #111;
+      color: #fff;
+      font-size: 1em;
+    }
+    input[type="submit"] {
+      background: linear-gradient(45deg, #ff00ff, #00ffe0);
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    input[type="submit"]:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #00ffe0;
+    }
+    footer {
+      text-align: center;
+      color: #ccc;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contact ClubRadio.UK</h1>
+  <form action="mailto:MrSpk000@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+    <input type="submit" value="Send Message" />
+  </form>
+  <footer>
+    &copy; 2025 ClubRadio.UK | We’d love to hear from you!
+  </footer>
+</body>
+</html>
